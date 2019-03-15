@@ -97,7 +97,10 @@ int main(){
 	b1.inser(9);
 	b1.inser(7);
 	b1.display();
-	if (b1.search (b1.root,1)!=NULL) cout<<"Number is found.";
+	int x;
+	cout<<"enter the number which you wnat to check"<<endl;
+	cin>>x;
+	if (b1.search (b1.root,x)!=NULL) cout<<"Number is found.";
 	else cout<<"Number is not found.";
 	return 0;
 }
